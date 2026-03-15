@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: fact_orders
+    description: "One row per streaming order event"
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+      - name: customer_id
+        tests:
+          - not_null
+      - name: total_amount
+        tests:
+          - not_null

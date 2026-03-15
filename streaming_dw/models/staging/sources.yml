@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: streaming
+    database: DE_PROJECT
+    schema: STREAMING
+    tables:
+      - name: RAW_ORDERS
+      - name: RAW_CLICKS

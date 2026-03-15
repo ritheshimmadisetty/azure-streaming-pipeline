@@ -1,0 +1,22 @@
+# Credentials
+.env
+profiles.yml
+*.key
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# dbt
+dbt_streaming/target/
+dbt_streaming/dbt_packages/
+dbt_streaming/logs/
+
+# Airflow
+airflow-docker/logs/
+*.db
+
+# OS
+.DS_Store
+Thumbs.db
